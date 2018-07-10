@@ -1,0 +1,73 @@
+html {
+    background: #707191;
+}
+body {
+    line-height: 1.4;
+}
+.banner {
+    padding: 3em 0;
+    color: white;
+}
+.tab-bar {
+    background: #9c6;
+    border-top: 1px solid black;
+    border-bottom: .25em solid black;
+    border-left: 1px solid black;
+}
+.tab {
+    display: inline-block;
+    padding: .5em .75em;
+    border-right: 1px solid black;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    background: white;
+    padding: 2em;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: .5em;
+}
+
+.footer p {
+    margin: 0;
+}
+
+p.headline {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em 2em;
+    max-width: 17em;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+}
+@media (min-width: 550px) {
+    .container {
+        padding: 20px;
+        width: 80%;
+    }
+}
+
+
