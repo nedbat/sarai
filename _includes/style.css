@@ -28,6 +28,7 @@ body {
 }
 
 h1 {
+    font-size: 3.5rem;
     margin: 0;
     letter-spacing: 0;
 }
@@ -70,9 +71,14 @@ h1 {
 }
 
 p.headline {
-    font-size: 1.5em;
+    font-size: 1.75rem;
     font-weight: bold;
     margin-bottom: 0;
+    clear: both;
+}
+
+.face {
+    text-align: center;
 }
 
 .card {
@@ -91,6 +97,22 @@ p.headline {
     padding: 0;
     width: 100%;
 }
+
+
+@media (min-width: 400px) {
+    h1 {
+        font-size: 4rem;
+    }
+    p.headline {
+        font-size: 1.5em;
+        clear: none;
+    }
+    .face {
+        float: left;
+        margin-right: 2em;
+    }
+}
+
 @media (min-width: 550px) {
     .container {
         padding: 20px;
